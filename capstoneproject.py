@@ -18,5 +18,5 @@ def getAccuracy(xvals, yvals):
   n = len(xs)
   numerator = n*sum(xy) - sum(xs)*sum(ys)
   denominator = ( (n*sum(xx) - sum(xs)**2) * (n*sum(yy) - sum(ys)**2) )
-  return (numerator/denominator)**0.5
+  return (numerator/denominator)**2
 
